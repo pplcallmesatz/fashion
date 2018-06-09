@@ -1,0 +1,265 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #063E7B;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.fa-shopping-cart{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+/*
+.hero {
+    background-image: url(../img/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+        background-size: 100% 100%;
+    background-position: bottom;
+    padding-top: 180px; 
+    padding-bottom: 200px;
+}
+*/
+.hero-bg {
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.hero-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.hero-description {
+      font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+}
+.slider {
+    box-shadow: 0px 2px 35px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 2px 35px rgba(0,0,0,0.25);
+
+}
+.a-i-c{
+    align-items: center;
+}
+
+/* Our Process */
+.our-process {
+    padding-top: 80px;
+}
+.h-title h2{
+    text-align: center;
+    color: rgba(27, 39, 51,1);
+    font-size: 30px;
+    margin-bottom: 20px;
+        
+}
+.h-title p{
+    color: rgba(99, 114, 130, 1);
+    font-size: 14px;
+    max-width: 550px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*Our Process*/
+
+.our-process .nav-item {
+   text-align: center;
+    width: 170px;
+        position: relative;
+}
+.our-process .nav-item .nav-link span{
+        display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    border: 1px solid rgba(7, 62, 122, 1);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 22px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 10px;
+}
+.our-process .nav-pills{
+    justify-content: center;
+    margin-top: 30px;
+}
+.our-process .nav-link{
+    color: rgba(27,39,51,0.5);
+        font-weight: 200;
+}
+.our-process .nav-pills .nav-link.active span, .nav-pills .show>.nav-link span{
+    background-color: rgba(7, 62, 122, 1);
+    color: #fff;
+}
+.our-process .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #fff;
+    color: rgba(7, 62, 122, 1);
+}
+.our-process .nav-item:first-child:before, .our-process .nav-item:last-child:before{
+    width: 50%;
+    
+}
+.our-process .nav-item:first-child:before{
+    left: 50%;
+}
+.our-process .tab-content {
+    margin-top: 50px;
+}
+.process-image {
+    width: 100%;
+}
+.process-title{
+    font-size: 25px;
+    color: #1B2733;
+}
+.process-description {
+    font-size: 14px;
+    font-weight: 200;
+    color: #637282;
+}
+
+
+/*Our Products*/
+.our-products{
+    margin-top: 100px;
+}
+.our-products .h-title h2{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.our-products .h-title p {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*
+.our-products {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+*/
+.card-block{
+    margin-top: 50px;
+}
+.card-block > div {
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all linear 0.15s;
+    background-color: #ffffff;
+}
+
+.card{
+    border-radius: 5px; 
+    border: none;
+}
+.card-title {
+    color: #1B2733;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-description {
+    color: #637282;
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.card-action{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.card-price{
+    font-size: 20px;
+    color: #006AFF;
+    margin: 0px;
+}
+.card-btn, .card-btn:hover, .card-btn:active{
+    background-color: rgba(0,106,255, 0.1);
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*Media queries*/
+@media (min-width: 768px){
+    .hero {
+    background-image: url(../img/hero-bg.svg);
+    background-repeat: no-repeat;
+/*    background-position: center;*/
+/*    background-size: contain;*/
+    position: relative;
+/*        background-size: 100% 100%;*/
+    background-position: bottom;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+    .hero-title{
+    font-size: 30px;
+    }
+    .hero-description {
+      font-size: 14px;
+    }
+    .our-process .nav-pills{
+    margin-top: 80px;
+    }
+        .our-process .nav-item:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    border: 1px dashed rgba(7, 62, 122, 0.5);
+    top: 37px;
+    z-index: 0;
+}
+    
+    .card-block > div:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 99;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+    
+}
+@media (max-width: 768px){
+    .hero {
+    background-color: #063E7B;
+         padding-top: 100px;
+    padding-bottom: 80px;
+}
+}
+@media (min-width: 1024px){
+.our-process .nav-item {
+ 
+    width: 200px;
+ 
+}
+    
+}

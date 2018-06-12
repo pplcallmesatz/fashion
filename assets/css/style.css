@@ -436,7 +436,7 @@ height: 30px;
     -o-transform: scale(1.05);
 }
     .navbar{
-        border-radius: 4px;
+/*        border-radius: 4px;*/
     }
     .contitions{
          text-align: right;

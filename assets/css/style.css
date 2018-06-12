@@ -350,7 +350,7 @@ height: 30px;
     width: 100%;
     height: auto;
 }
-.fashion {
+.fashion .container {
     position: relative;
     overflow: hidden;
 }
@@ -484,11 +484,11 @@ height: 30px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .fashion:before {
+    .fashion .container:before {
     content: "";
     position: absolute;
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 50px);
     border-radius: 60px;
     background-color: rgba(24, 139, 255, 0.05);
     top: 0px;
